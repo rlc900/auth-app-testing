@@ -14,6 +14,7 @@
         "@models": "./server/models",
         "@routes": "./server/routes",
         "@config": "./server/config",
+        "@test": "./tests",
         "@validators": "./server/validators",
         "@components": "./client/components",
         "@middleware": "./server/middleware",

@@ -6,21 +6,9 @@
 
 import User from '@models/User';
 import mongoose from 'mongoose';
-import jwt from 'jsonwebtoken'
-import config from '@config'
+import Response from '@tests/utils/response';
 import authMiddleware from '@middleware/auth'
 
-class Response {
-    status(status) {
-      this.status = status
- 
-      return this
-    }
- 
-    json(data) {
-      return data
-    }
-  }
 
 describe('The auth middleware', () => {
 
